@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+// "POOP" is a uniform buffer.
+POOP_SIZE (16U<<10)
+
+
+
+
+NV : thread   -> warp      -> SM
+AMD: workitem -> wavefront -> workgroup
+
+
+
+
+
+
+OBJECTIVE
+
+	a working engine for Windows. in the future, we'll port this to Linux, specifically for Steam machines.
+
